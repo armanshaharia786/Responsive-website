@@ -1,0 +1,17 @@
+@media (max-width:350px) {
+    .product-price h1 {
+        margin-right: 48px;
+    }
+    .banner-btn {
+        padding: 5px 12px;
+    }
+}
+@media (max-width:740px) {
+    .icon-img {
+        width: 100%;
+        text-align: center;
+    }
+    .content-text {
+        text-align: center;
+    }
+}

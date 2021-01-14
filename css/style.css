@@ -1,0 +1,164 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.background{
+    background-color: #fafad2;
+}
+.navbar-menu{
+    padding-top: 30px;
+}
+.menu-nav li{
+    width: 100px;
+}
+.menu-nav li a{
+    font-weight: 600;
+}
+
+/* banner section */
+
+ .banner-content{
+     margin-top: 117px;
+ }
+ .banner-content h1 {
+    color: goldenrod;
+    font-size: 56px;
+    font-weight: 600;
+}
+.banner-content h2 {
+    color: darkblue;
+    font-size: 56px;
+    margin-top: -18px;
+    font-weight: 600;
+}
+.banner-content p {
+    font-size: 21px;
+    margin: 33px 0;
+}
+.banner-btn{
+    padding: 10px 27px;
+    position: relative;
+}
+.banner-btn::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: #111;
+    visibility: visible;
+    opacity: 1;
+}
+.banner-btn:hover::after{
+    visibility: visible;
+    opacity: 1;
+}
+.banner-btn span{
+    color: #fff;
+    margin-right: 10px;
+}
+
+/* Product section */
+
+.product-item{
+    padding: 14px;
+    box-shadow: 10px;
+}
+.product-img {
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.product-img img{
+    width: 215px;
+}
+
+.product-content h2 {
+    font-size: 29px;
+    font-weight: 600;
+}
+.product-content p {
+    color: #444;
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+.product-price h1 {
+    color: #d4b300;
+    font-size: 37px;
+    font-weight: 600;
+    margin-right: 80px;
+    padding-left: 16px;
+}
+
+.product-header h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.skin-pure .product-item .product-img img{
+    width: 296px;
+}
+.skin-pure-2 .product-item .product-img img{
+    width: 236px;
+}
+.man-skin .product-item .product-img img{
+    width: 223px;
+}
+.man-skin-2 .product-item .product-img img{
+    width: 280px;
+}
+.man-skin-3 .product-item .product-img img{
+    width: 203px;
+}
+
+/* about section */
+
+.about-content{
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.about-content img {
+    width: 94px;
+    padding: 13px;
+    margin-top: 13px;
+}
+.content-text{
+    padding: 13px;
+}
+.content-text h3 {
+    font-size: 27px;
+    font-weight: 600;
+}
+.content-text p{
+    color: #444;
+}
+.about-img img{
+    margin-top: 30px;
+
+}
+.icon-img{}
+.icon-img img{}
+
+
+/* footer section */
+
+.footer-sec{
+    text-align: center;
+    
+}
+.footer-sec a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+
